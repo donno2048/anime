@@ -11,7 +11,7 @@ from paddle import load, to_tensor, no_grad
 from numpy import newaxis, transpose, float32, uint8
 def animate(image_path, output_path):
   genA2B, faceseg = ResnetUGATITP2CGenerator(), FaceSeg()
-  genA2B.set_state_dict(load('main.bin'))
+  genA2B.set_state_dict(load(__file__.replace('py', 'bin')))
   genA2B.eval()
   face_image = align_crop(open(image_path))
   face_mask = res(faceseg(face_image), (256, 256))[:, :, newaxis] / 255.
