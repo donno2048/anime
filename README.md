@@ -3,7 +3,7 @@ Turn human into anime
 
 # Install
 
-`sudo apt install python3-pip cmake python3-tk -y && pip3 install paddlepaddle ppgan ffmpeg dlib`
+`sudo apt install python3-pip cmake python3-tk -y && pip3 install scikit-build paddlepaddle ppgan ffmpeg dlib`
 
 # Run
 
