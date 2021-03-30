@@ -2,7 +2,6 @@ from tkinter import Tk
 from tkinter.filedialog import askopenfilename, asksaveasfilename
 from cv2 import resize, imwrite, cvtColor
 from PIL.Image import open
-from ppgan.utils.download import get_path_from_url
 from ppgan.faceutils.dlibutils import align_crop
 from ppgan.faceutils.face_segmentation import FaceSeg
 from ppgan.models.generators import ResnetUGATITP2CGenerator
