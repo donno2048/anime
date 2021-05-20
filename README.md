@@ -1,11 +1,14 @@
 Turn human into anime
 
+## Clone
 
-# Install
+`git clone https://github.com/donno2048/anime && cd anime`
+
+## Install
 
 `sudo apt install python3-pip cmake python3-tk -y && pip3 install -r requirements.txt`
 
-# Run
+## Run
 
 Simply run _main.py_ using python:
 
