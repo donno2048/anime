@@ -1,5 +1,7 @@
 Turn human into anime
 
+[Better version](https://github.com/bryandlee/animegan2-pytorch)
+
 ## Clone
 
 `git clone https://github.com/donno2048/anime && cd anime`
